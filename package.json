@@ -1,6 +1,6 @@
 {
   "name": "fontgen-loader",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A WebPack loader to automaticaly generate font files and CSS to make your own icon font",
   "repository": "DragonsInn/fontgen-loader",
   "main": "index.js",
@@ -22,7 +22,7 @@
   "dependencies": {
     "loader-utils": "^0.2.10",
     "webfonts-generator": "^0.3.2",
-    "glob": "^6.0.2"
+    "glob": "^7.1.1"
   },
   "devDependencies": {
     "css-loader": "^0.15.1",
@@ -30,6 +30,6 @@
     "node-libs-browser": "^0.5.2",
     "style-loader": "^0.12.3",
     "url-loader": "^0.5.6",
-    "webpack": "^1.9.11"
+    "webpack": "^2.2.0"
   }
 }
